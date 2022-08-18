@@ -14,6 +14,9 @@ const bsPhotos = [
   { id: 9, description: 'My legs at beach' },
   { id: 10, description: 'My legs at pool' },
   { id: 11, description: 'Lattee art with biscuit' },
+  { id: 12, description: 'test' },
+  { id: 13, description: 'test' },
+  { id: 14, description: 'test' },
 ]
 
 function PhotoList() {

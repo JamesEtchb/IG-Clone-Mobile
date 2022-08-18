@@ -6,19 +6,19 @@ import { Button, Input } from 'react-native-elements'
 const Login = () => {
   return (
     <View style={loginStyles.container}>
-      <Text style={loginStyles.appBarTitle}>Bocagram</Text>
+      {/* <Text style={loginStyles.appBarTitle}>Bocagram</Text> */}
       <Input
         placeholder="email"
-        keyboardType='email-address'
-        autoCapitalize='false'
-        leftIcon={{ type: 'font-awesome', name: 'chevron-right'}}
-        />
+        keyboardType="email-address"
+        autoCapitalize="false"
+        leftIcon={{ type: 'font-awesome', name: 'chevron-right' }}
+      />
       <Input
         placeholder="Password"
         secureTextEntry={true}
-        leftIcon={{ type: 'font-awesome', name: 'lock'}}
+        leftIcon={{ type: 'font-awesome', name: 'lock' }}
       />
-      <Button title='Solid Button'>Sign Up</Button>
+      <Button title="Solid Button">Sign Up</Button>
     </View>
   )
 }

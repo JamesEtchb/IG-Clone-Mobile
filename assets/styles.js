@@ -18,8 +18,8 @@ export const loginStyles = StyleSheet.create({
     justifyContent: 'center',
     paddingHorizontal: 40,
     height: '100%',
-    backgroundColor: 'white'
-  }
+    backgroundColor: 'white',
+  },
 })
 
 export const photoCardStyles = StyleSheet.create({
@@ -47,6 +47,16 @@ export const photoCardStyles = StyleSheet.create({
     width: '100%',
     aspectRatio: 1,
     flex: 1,
+  },
+  footer: {
+    flexDirection: 'row',
+    alignItems: 'center'
+  },
+  favorite: {
+    color: 'red'
+  },
+  notFavorite: {
+    color: 'black'
   }
 })
 
@@ -55,4 +65,21 @@ export const photoListStyles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'white',
   },
+})
+
+export const aboutStyles = StyleSheet.create({
+  aboutText: {
+    fontSize: 30,
+    color: 'black',
+    padding: 10
+  },
+  aboutIcons: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    alignContent: 'center',
+    width: '60%',
+    paddingLeft: 20,
+    paddingTop: 40
+  } 
 })
